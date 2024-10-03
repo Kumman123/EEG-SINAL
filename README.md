@@ -16,6 +16,13 @@ The dataset used consists of EEG signals with labels representing six different 
 
 Both CNN and LSTM models were trained and tested on this dataset to compare their performance in classifying the events.
 
+Results and Comparison
+The performance of the models on the EEG classification task is summarized below:
+
+CNN Accuracy: 64-67%
+LSTM Accuracy: 50-54%
+Conclusion: CNN outperforms LSTM for this EEG classification task, likely due to the spatial nature of the data.
+
 ---
 
 ## Project Structure
@@ -31,3 +38,5 @@ Both CNN and LSTM models were trained and tested on this dataset to compare thei
 ├── results/                 # Directory to store results (accuracy, loss curves)
 ├── README.md                # Project README file
 └── requirements.txt         # Python dependencies
+
+
