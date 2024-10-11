@@ -6,6 +6,7 @@ This project focuses on classifying EEG signals using both **Convolutional Neura
 
 ### Dataset
 The dataset used consists of EEG signals with labels representing six different events:
+http://www.nature.com/articles/sdata201447
 
 1. HandStart
 2. FirstDigitTouch
